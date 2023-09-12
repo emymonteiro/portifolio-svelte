@@ -12,9 +12,7 @@
 
 <svelte:window bind:scrollY={y} />
 
-<header
-	class={` ${y > 60 ? 'bg-white py-4 shadow-md fixed' : 'bg-base-200'}  w-full transition-all`}
->
+<header class={` ${y > 40 ? 'bg-base-100 shadow-md fixed' : 'bg-base-200'}  w-full transition-all`}>
 	<nav class="flex md:flex-row flex-col justify-between relative">
 		<div class="w-full justify-between items-center flex px-5 h-20">
 			<span class="font-bold text-2xl"> Emilly Monteiro </span>
