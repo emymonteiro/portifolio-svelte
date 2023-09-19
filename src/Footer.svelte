@@ -5,8 +5,10 @@
 <div
 	class="bg-neutral-focus text-center h-32 flex items-center justify-around text-neutral-content"
 >
-	<h1 class="font-semibold text-xl">Copyright © 2023. All content was made with love</h1>
-	<div class="text-3xl flex gap-3">
+	<h1 class="font-semibold text-xl flex md:w-2xl max-w-sm mx-5 flex-wrap">
+		Copyright © 2023. All content was made with love
+	</h1>
+	<div class="text-3xl flex gap-3 w-sm flex-wrap">
 		<a href="https://www.linkedin.com/in/emilly-monteiro-580254191/" target="_blank">
 			<Icon class="hover:text-info" icon="mdi:linkedin" />
 		</a>

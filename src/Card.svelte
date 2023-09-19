@@ -14,7 +14,7 @@
 </script>
 
 <div
-	class={`bg-base-100 rounded-xl shadow flex ${
+	class={`bg-base-100 rounded-xl w-3xl shadow flex ${
 		getEven(index) ? 'md:flex-row' : 'md:flex-row-reverse'
 	} flex-col items-stretch md:max-h-96`}
 >
