@@ -20,7 +20,7 @@
 >
 	<div class="md:w-[60%] w-full p-5">
 		<div
-			class="h-96 max-h-full rounded-xl w-full md:h-full flex items-center bg-cover bg-center"
+			class="h-96 max-xs:h-60 max-h-full rounded-xl w-full md:h-full flex items-center bg-cover bg-center"
 			style={`background-image: url("${Item.img}");`}
 		/>
 	</div>

@@ -14,7 +14,7 @@
 			class={`flex ${!getEven(index) ? 'md:flex-row-reverse' : 'md:flex-row'} flex-col-reverse
 			items-center w-full overflow-hidden`}
 		>
-			<div class="md:w-[50%] ml-8">
+			<div class="md:w-[50%]">
 				<slot name="content" />
 			</div>
 			<div class="md:w-[50%] w-full pb-8 md:pb-0 md:h-96 ml-auto flex items-center justify-center">

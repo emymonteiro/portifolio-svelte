@@ -8,8 +8,10 @@
 	const pages = [Home, About, Projects, Contact];
 </script>
 
-{#each pages as page, i}
-	<svelte:component this={page} index={i} />
-{/each}
+<div class="overflow-auto scrollbar-hide md:scrollbar-default">
+	{#each pages as page, i}
+		<svelte:component this={page} index={i} />
+	{/each}
 
-<Footer />
+	<Footer />
+</div>

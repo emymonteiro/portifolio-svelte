@@ -4,12 +4,12 @@
 	export let index: number;
 </script>
 
-<div id="About">
+<div id="About" class="px-5">
 	<Grid {index}>
 		<div slot="img" class="flex">
 			<img src="workplace.jpg" class="w-full rounded-xl" alt="" />
 		</div>
-		<span slot="content" class="flex flex-col gap-3 max-w-sm pl-5">
+		<span slot="content" class="flex flex-col gap-3 max-w-sm md:pl-5 pl-0">
 			<h1 class="text-info uppercase font-bold text-xl">About me</h1>
 			<h2 class="font-bold text-2xl text-base-content">
 				A Front-end Developer who loves challenges 💻

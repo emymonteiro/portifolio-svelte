@@ -17,7 +17,7 @@
 
 <div id="Home">
 	<Grid {index}>
-		<div slot="content" class="flex flex-col gap-5 w-full">
+		<div slot="content" class="flex flex-col gap-5 w-full p-4">
 			<span class="text-4xl flex md:w-full font-bold">Front-End Svelte & VueJS Developer ☕</span>
 			<span class="max-w-sm flex flex-col gap-2">
 				Hi, I'm Emilly Monteiro. a technology enthusiast who loves challenges.

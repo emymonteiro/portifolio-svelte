@@ -39,11 +39,11 @@
 	id="Projects"
 	class={`flex w-full items-center flex-col ${
 		!getEven(index) ? 'bg-base-100' : 'bg-base-200'
-	} md:p-20 p-5`}
+	} xs:p-5 sm:p-10 md:p-20`}
 >
 	<div class="flex flex-col w-full md:max-w-4xl">
-		<h1 class="text-info uppercase font-bold text-xl">Projects</h1>
-		<h2 class="font-bold text-2xl text-base-content">
+		<h1 class="text-info uppercase font-bold text-xl pt-5 pl-5 md:p-0">Projects</h1>
+		<h2 class="font-bold text-2xl text-base-content pl-5 md:p-0">
 			Each project is a unique piece of development 🧩
 		</h2>
 		<div class="mt-10 flex flex-col gap-10 w-full">
