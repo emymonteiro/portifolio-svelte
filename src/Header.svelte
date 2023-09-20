@@ -7,6 +7,20 @@
 		showMenu = !showMenu;
 	}
 
+	function fixScroll(scroll: boolean = true) {
+		showMenu = false;
+		let height = y > 40 ? -80 : -160;
+		if (scroll) {
+			setTimeout(() => {
+				window.scrollBy({
+					left: 0,
+					top: height,
+					behavior: 'smooth'
+				});
+			}, 50);
+		}
+	}
+
 	let y: number;
 </script>
 
@@ -24,21 +38,21 @@
 				{/if}
 			</button>
 		</div>
-		<div class={`md:flex justify-start items-start  px-5 ${showMenu ? 'flex' : 'hidden'}`}>
+		<div class={`md:flex justify-start items-start px-5 ${showMenu ? 'flex' : 'hidden'}`}>
 			<ul
-				class="text-lg font-semibold flex md:flex-row md:h-20 flex-col md:gap-5 gap-8 md:items-center"
+				class="text-lg font-semibold flex md:flex-row md:h-20 flex-col md:gap-5 gap-8 md:p-0 pb-5 md:items-center"
 			>
 				<li class="hover:text-gray-500">
-					<a href="#Home">Home</a>
+					<a href="#Home" on:click={() => fixScroll()}>Home</a>
 				</li>
 				<li class="hover:text-gray-500">
-					<a href="#About">About</a>
+					<a href="#About" on:click={() => fixScroll()}>About</a>
 				</li>
 				<li class="hover:text-gray-500">
-					<a href="#Projects">Projects</a>
+					<a href="#Projects" on:click={() => fixScroll()}>Projects</a>
 				</li>
 				<li class="hover:text-gray-500">
-					<a href="#Contact">Contact</a>
+					<a href="#Contact" on:click={() => fixScroll(false)}>Contact</a>
 				</li>
 			</ul>
 		</div>
