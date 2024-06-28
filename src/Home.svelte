@@ -35,10 +35,7 @@
 			</div>
 		</div>
 		<div slot="img" class="w-full flex items-center justify-center">
-			<img
-				src="https://media.discordapp.net/attachments/419592647255261184/1147234740081012837/Emy_1-removebg-preview.png"
-				alt=""
-			/>
+			<img src="https://i.ibb.co/R9NVqMd/Emy-1-removebg-preview.png" alt="" />
 		</div>
 		<div slot="footer" class=" flex md:flex-row flex-col text-xl items-center gap-5">
 			<div class="font-medium text-center flex flex-col">
